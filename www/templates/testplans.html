@@ -1,0 +1,9 @@
+<ion-view view-title="Test Plans">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="testPlan in testPlans" href="#/app/testplans/{{testPlan.id}}">
+        {{testPlan.projectName}}: {{testPlan.platform}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
